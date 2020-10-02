@@ -1,0 +1,100 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  background-color: #dcdcdc;
+}
+/* All of my link rulesets*/
+a:link {
+  color: orange;
+}
+
+a:visited: {
+  color: purple;
+}
+
+a:hover {
+  color: #dda0dd;
+  text-decoration: none;
+}
+
+a:visited:hover {
+  color: crimson;
+  text-decoration: none;
+}
+/* Rule for all lists*/
+li {
+  list-style: georgian;
+}
+/* Code pertaining to the top of page headings*/
+h1, address {
+  text-align: center;
+}
+/* Changing the other headings*/
+h1 {
+  border-bottom: 5px double #ff8c00;
+  font-family: "Secular One";
+  background-image: linear-gradient(45deg, #ffd700, #f0e68c, #cd853f);
+}
+
+address {
+  font-size: 1.4 rem;
+}
+
+h2 {
+  border-left: 5px ridge #ff8c00;
+  border-bottom: 5px ridge #ff8c00;
+  background-color: beige;
+}
+
+.course-line {
+  width: 100px;
+  background-color: cornflowerblue;
+  color: #8b0000;
+  font-weight: bolder;
+  border: 2px solid black;
+  border-radius: 30%;
+  padding: 10px 1em;
+}
+/* Picking out experiences to make it different*/
+#experience {
+  background-color: aqua;
+  border-top: 5px solid #4b0082;
+  border-bottom: none;
+  border-left: none;
+  border-radius: 3mm;
+}
+#da-list li  {
+  list-style: square;
+}
+/*Changing the image and its following text*/
+img {
+  display: block;
+  border-radius: 50%;
+  width: 300px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure figcaption {
+  font-size: 2.5rem;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  width: 540px;
+  border-bottom: 5px dotted #4b0082;
+}
+
+figure ~ p {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+/*Changing the format of the final links*/
+p:nth-last-child(-n+3) {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
