@@ -1,0 +1,11 @@
+The tools and techniques for web development have changed a lot over the years. How will you personally try to keep up with those changes and where can you look to find them?
+
+The most likely way that I would use to keep up on new tools and techniques for web development would be to follow blogs of trusted experts to see the new changes as they come.  You can look for these changes to web development through multiple different sources. You could follow trusted influencers on social media, you could read articles online for new changes or simple just talk to your coworkers or friends that are interested in web development.
+
+The lecture and readings discussed the limitations of using floats for layout. What are some of these limitations? Provide an example.
+
+Not being able to center the object you are trying to float or change its relative position to other objects is a few limitations of floats. If you were to float multiple boxes to the left and then adjust their padding and margins to fit properly inside the web browser, as soon as someone shrank the screen the positions of the boxes would no longer hold where you want them to be. It would take much more code to control the boxes in the way that you want.
+
+Flexbox is built to be language agnostic, so it uses generic terminology like the "Main" or "Cross" axis. Choose a flex property that affects one of these axes on a flex container and explain how it is used. Show how the result can change based on different flex directions and different writing modes.
+
+The justify-content property changes the positions of your flexbox(es) on the main axis. If I were to start up a project on my computer and use justify-content, it would affect the boxes on where they are in a horizontal position and if I were to use justify-content: flex-start; it would move the boxes to the left. If I had the flex-direction: column; property added, justify-content would instead effect the layout of the boxes on the vertical plane and justify-content: flex-start; would move the boxes to the start. If you were to try to make a project for a different language, justify-content would also change the based on what the normal layout is for that language. For example, if you were writing in Japanese, using justify-content: flex-start; would move the boxes to the right since the read their language from right to left.
